@@ -51,22 +51,22 @@ app.post('/sms', (request, response) => {
     }
   }
 
-  if (affirgotchi.woke >= 5) {
+  if (affirgotchi.woke >= 3) {
     status = `Dude ${affirgotchi.name} you're already hella woke! Go spread your wokeness in the world! 🌎💫\n\nWe need more people as present as you.`
     affirgotchi.woke = 0;
   }
-  
-  if (affirgotchi.soulAge >= 5) {
+
+  if (affirgotchi.soulAge >= 1) {
     status = `Get it with your mature consciousness ${affirgotchi.name}! 😇 You're an angel on earth!`;
     affirgotchi.soulAge = 0;
   }
-  
-  if (affirgotchi.coin >= 5) {
+
+  if (affirgotchi.coin >= 3) {
     status = `This success thing is in your wheelhouse! Keepin it 💯... you're about to get that coin ${affirgotchi.name}💰🤑`
     affirgotchi.coin = 0;
   }
-  
-  if (affirgotchi.game >= 5) {
+
+  if (affirgotchi.game >= 3) {
     status = `${affirgotchi.name} you're on point! 💪🏾😍 Keep doing what you're doing... killin the game 💀`
     affirgotchi.game = 0;
   }
