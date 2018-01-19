@@ -1,10 +1,10 @@
 module.exports = {
-  port: 3000,
-  myNumber: "+14156101712",
+  port: 8000,
+  myNumber: process.env.MY_NUMBER,
   twilioConfig: {
-    accountSid: "AC9d02a8606f9040afa9c784907d99e716",
-    authToken: "96eb3aadc533c63b16601ad5b5f0a27c",
-    number: "+14157291956"
+    accountSid: process.env.TWILIO_ACCOUNT_SID,
+    authToken: process.env.TWILIO_AUTH_TOKEN,
+    number: process.env.TWILIO_NUMBER
   },
   actions: {
     confidence: [

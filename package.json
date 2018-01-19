@@ -17,6 +17,8 @@
   },
   "homepage": "https://github.com/pporche87/twilio-affirgotchi#readme",
   "dependencies": {
+    "body-parser": "^1.18.2",
+    "dotenv": "^4.0.0",
     "express": "^4.16.2",
     "twilio": "^3.11.0"
   }

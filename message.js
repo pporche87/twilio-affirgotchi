@@ -12,9 +12,9 @@ const send = message => client.messages.create({
 })
 .then((message) => console.log(message.sid));
 
-const twiml = message => {
-  const response = new twilio.TwimlResponse();
-  return response.message(message).toString();
-}
+// const twiml = message => {
+//   const response = new twilio.TwimlResponse();
+//   return response.message(message).toString();
+// }
 
-module.exports = { send, twiml }
+module.exports = { send }
