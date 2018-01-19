@@ -17,4 +17,4 @@ const twiml = message => {
   return response.message(message).toString();
 }
 
-export { send };
+module.exports = { send, twiml }
