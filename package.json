@@ -1,0 +1,23 @@
+{
+  "name": "twilio-affirgotchi",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pporche87/twilio-affirgotchi.git"
+  },
+  "author": "Patrick Porche <pporche87@gmail.com> (http://pporche87.com/)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/pporche87/twilio-affirgotchi/issues"
+  },
+  "homepage": "https://github.com/pporche87/twilio-affirgotchi#readme",
+  "dependencies": {
+    "express": "^4.16.2",
+    "twilio": "^3.11.0"
+  }
+}
