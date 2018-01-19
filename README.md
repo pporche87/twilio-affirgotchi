@@ -16,9 +16,10 @@ Your Affirgotchi will keep track of your status in the following areas. Try to g
 
 [Check out a demo on YouTube](https://youtu.be/dmxpCd9JIWE)
 
-<img src="./screenshot-1.PNG" width="32%">
-<img src="./screenshot-2.PNG" width="32%">
-<img src="./screenshot-3.PNG" width="32%">
+![screenshot](./screenshot-1.PNG)
+![screenshot](./screenshot-2.PNG)
+![screenshot](./screenshot-3.PNG)
+
 
 # Setting up Development Environment
 
